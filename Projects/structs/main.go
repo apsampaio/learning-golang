@@ -24,10 +24,11 @@ func main() {
 		},
 	}
 
-	pPointer := &p
-	pPointer.updateName("Jim")
-	p.print()
+	p.updateName("Jim")
+	//p.print()
 
+	name := "Bill"
+	fmt.Println(*&name)
 }
 
 func (pPointer *person) updateName(new string) {
