@@ -38,4 +38,20 @@ func main() {
 	s = append(s[0:3])
 
 	fmt.Println("removing from s and returning to 3 values: ", s)
+
+	// we can also create a predefined slice using the make command
+
+	y := make([]int, 3, 3)
+
+	fmt.Println(len(y))
+	fmt.Println(cap(y))
+
+	// we can also have multi-dimensional slices
+
+	coord_x := []int{30, 45}
+	coord_y := []int{10, 10}
+
+	coord := [][]int{coord_x, coord_y}
+
+	fmt.Println(coord)
 }
