@@ -2,6 +2,8 @@
     Learning GoLang 📚
 </h2>
 
+<p align="center" style="color: red"><b>Everything in Go is pass by value</b></p>
+
 <p align="center">
   <a target="blank"><img src="./.github/gopher.gif" width="100" alt="Gopher" /></a>
 </p>
