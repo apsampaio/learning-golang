@@ -6,6 +6,7 @@ func main() {
 	f := foo()
 	fmt.Println(f())
 	fmt.Println(f())
+
 	g := foo()
 	fmt.Println(g())
 	fmt.Println(g())
